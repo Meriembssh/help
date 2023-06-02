@@ -1,0 +1,45 @@
+.statistics-page {
+  background-color: #121212; /* Set the background color to a dark color */
+  color: #ffffff; /* Set the text color to white */
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Update the grid-template-columns to fit 4 items in each row */
+  grid-gap: 20px;
+  margin-top: 20px;
+  height: calc(100vh - 150px); /* Adjust the height of the grid container according to your preference */
+  scroll-behavior: smooth; /* Add smooth scrolling behavior */
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+
+.grid-item {
+  background-color: #282828; /* Set the background color for each grid item */
+  padding: 20px;
+  height: 100%; /* Make the grid items take up the full height of the grid container */
+  overflow: auto; /* Enable scrolling for the grid items */
+  padding: 20px; /* Add some padding to the grid container */
+}
+
+.chart-item {
+  height: 400px; /* Adjust the height of the chart items according to your preference */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.world-map-container {
+  background-color: #ffffff; /* Set the background color of the map container to white */
+  padding: 10px; /* Add some padding to the map container */
+}
+
+.world-map-chart {
+  width: 100%; /* Make the chart fill the available width */
+  height: 100%; /* Make the chart fill the available height within the map container */
+}

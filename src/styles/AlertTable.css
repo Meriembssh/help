@@ -1,0 +1,33 @@
+.alert-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .alert-table th,
+  .alert-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .alert-table th {
+    background-color: #333;
+  }
+  
+  .alert-table thead th {
+    font-weight: bold;
+  }
+  
+  .alert-table tbody tr {
+    background-color: #222;
+  }
+  
+  .alert-table tbody tr:hover {
+    background-color: #555;
+  }
+  
+  .alert-table tbody td {
+    border-bottom: 1px solid #555;
+  }
+  
